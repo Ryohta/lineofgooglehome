@@ -103,7 +103,7 @@ app.post('/', function(req, res) {
         text: texttoline
       };
 
-      client.pushMessage(groupId, message)
+//      client.pushMessage(groupId, message)
         .then(() => {
         })
         .catch((err) => {
