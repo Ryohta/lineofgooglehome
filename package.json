@@ -1,0 +1,19 @@
+﻿{
+  "name": "lineofgooglehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lineofgooglehome.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryohta/lineofgooglehome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryohta/lineofgooglehome/issues"
+  },
+  "homepage": "https://github.com/Ryohta/lineofgooglehome#readme"
+}
