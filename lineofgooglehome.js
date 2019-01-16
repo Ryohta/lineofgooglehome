@@ -42,7 +42,7 @@ app.post('/', function(req, res) {
     //リプライトークンを出力（確認用）
     console.log(lineReplyToken);
 
-　　　　　　　　//メッセージ受信した時のJSONに入ってるUserIdを使ってユーザー名を取る
+        //メッセージ受信した時のJSONに入ってるUserIdを使ってユーザー名を取る
     client.getProfile(user1)
       .then((profile) => {
 
@@ -86,11 +86,11 @@ app.post('/', function(req, res) {
       })
       .catch((err) => {
         // error handling
-　　　　　　　　　　　　　　　　//多分なんかしなくちゃいけない
+              //多分なんかしなくちゃいけない
       });
     }else{
 
-　　　　　　　　　　　　//こっちはGoogleHomeに喋ったメッセージをLINEに投稿する方
+      //こっちはGoogleHomeに喋ったメッセージをLINEに投稿する方
       // リクエストボディを出力
       console.log(req.body);
       var texttoline = req.body.text;
@@ -107,8 +107,7 @@ app.post('/', function(req, res) {
         .then(() => {
         })
         .catch((err) => {
-          // error handling
-　　　　　　　　　　　　　　　　　　　　//多分なんかしなくちゃいけない
-        });
+        // error handling
+	});
     }
 })
